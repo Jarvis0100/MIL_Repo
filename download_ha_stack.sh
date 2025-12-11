@@ -20,7 +20,7 @@ download_pkg_group() {
   echo "Downloading to: $dest_dir"
   sudo dnf download --resolve --destdir "$dest_dir" "$@"
 }
-
+#echo
 echo "=== Downloading repository RPMs (for airgapped installation) ==="
 download_pkg_group "$BASE_DIR/repos" \
   epel-release \
