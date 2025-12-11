@@ -37,7 +37,7 @@ echo "=== Downloading Patroni and related Python etcd client ==="
 download_pkg_group "$BASE_DIR/patroni" \
   patroni \
   patroni-etcd
-
+#python
 # python3-etcd is already in python group but we include here to be safe
 echo "=== Downloading Python runtime and libraries used by Patroni ==="
 download_pkg_group "$BASE_DIR/python" \
