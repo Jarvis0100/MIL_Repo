@@ -6,7 +6,7 @@ set -euo pipefail
 BASE_DIR="${1:-$HOME/ha-db-offline/repo}"
 
 echo "Using base directory: $BASE_DIR"
-
+#echo
 # Create directory structure
 mkdir -p "$BASE_DIR"/{repos,postgresql,patroni,python,devtools,etcd,utils,keepalived,monitoring,haproxy,security}
 
