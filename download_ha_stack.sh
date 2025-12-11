@@ -1,7 +1,7 @@
 #Download script
 #!/bin/bash
 set -euo pipefail
-
+#Base Dir
 # Base directory where RPMs and tarballs will be stored
 BASE_DIR="${1:-$HOME/ha-db-offline/repo}"
 
