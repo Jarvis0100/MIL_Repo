@@ -25,7 +25,7 @@ echo "=== Downloading repository RPMs (for airgapped installation) ==="
 download_pkg_group "$BASE_DIR/repos" \
   epel-release \
   pgdg-redhat-repo
-
+#echo
 echo "=== Downloading PostgreSQL 16 core RPMs (re-download for offline use) ==="
 download_pkg_group "$BASE_DIR/postgresql" \
   postgresql16 \
